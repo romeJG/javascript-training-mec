@@ -10,6 +10,8 @@ function getAnswer(operation) {
         result = parseFloat(var1) * parseFloat(var2);
     } else if (operation === "divide") {
         result = parseFloat(var1) / parseFloat(var2);
+    } else {
+        result = "unknown shape"
     }
     document.getElementById("answer").innerHTML = result;
 }
