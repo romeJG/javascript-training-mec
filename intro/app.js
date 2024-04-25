@@ -1,9 +1,27 @@
-let x, y, z;
-x = 5;
-y = 6;
-z = x + y;
-console.log(z)
-{
-    const a = 5;
+function showMessage() {
+    document.getElementById("hello").innerHTML = "Im from app.js";
 }
-console.log(a)
+function addTwoDigits() {
+    let var1 = document.getElementById("var1").value;
+    let var2 = document.getElementById("var2").value;
+    let result = parseFloat(var1) + parseFloat(var2);
+    document.getElementById("answer").innerHTML = result;
+}
+function subTwoDigits() {
+    let var1 = document.getElementById("var1").value;
+    let var2 = document.getElementById("var2").value;
+    let result = parseFloat(var1) - parseFloat(var2);
+    document.getElementById("answer").innerHTML = result;
+}
+function multiTwoDigits() {
+    let var1 = document.getElementById("var1").value;
+    let var2 = document.getElementById("var2").value;
+    let result = parseFloat(var1) * parseFloat(var2);
+    document.getElementById("answer").innerHTML = result;
+}
+function divTwoDigits() {
+    let var1 = document.getElementById("var1").value;
+    let var2 = document.getElementById("var2").value;
+    let result = parseFloat(var1) / parseFloat(var2);
+    document.getElementById("answer").innerHTML = result;
+}
