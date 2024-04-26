@@ -1,9 +1,9 @@
-// let output = document.getElementById("output")
-// userInput.addEventListener("keyup", printValueToOutput)
+// let output = document.getelementbyid("output")
+// userinput.addeventlistener("keyup", printvaluetooutput)
 
 
-// function printValueToOutput() {
-//     output.innerHTML = userInput.value
+// function printvaluetooutput() {
+//     output.innerhtml = userinput.value
 // }
 
 
@@ -25,4 +25,10 @@ function showPass() {
         toggleIcon.classList.add("fa-eye-slash")
         userInput.type = "password"
     }
+}
+
+
+function login() {
+    swal("Successfully logged in")
+    swal("Head", "message", "info")
 }
